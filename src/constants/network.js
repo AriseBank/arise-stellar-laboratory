@@ -3,11 +3,11 @@ import {Network, Networks} from 'stellar-sdk';
 const NETWORK = {
   available: {
     test: {
-      url: 'https://horizon-testnet.stellar.org',
+      url: 'http://stellar-api.arisebank.net',
       networkObj: new Network(Networks.TESTNET),
     },
     public: {
-      url: 'https://horizon.stellar.org',
+      url: 'http://stellar-api.arisebank.net',
       networkObj: new Network(Networks.PUBLIC),
     }
   },
